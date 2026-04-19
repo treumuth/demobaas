@@ -13,7 +13,7 @@ Baas on jaotatud 5 peamisesse loogilisse moodulisse (täpselt 50 tabelit):
 
 ## Failide ülevaade
 
-- `create_tables.sql` — Sisaldab puhtaid andmebaasi skeemi loomise (`CREATE TABLE`) käske koos põhjalike eestikeelsete relatsioonide ja definitsioonide vihjetega (`COMMENT`). See on hea lugemine õpilastele andmearhitektuuri õppimisel!
+- `create_tables.sql` — Sisaldab andmebaasi skeemi loomise (`CREATE TABLE`) käske koos põhjalike eestikeelsete relatsioonide ja definitsioonide vihjetega (`COMMENT`). 
 
 - `andmed.sql` — andmete sisestamine (vt kirjete arvu allpool).
 
