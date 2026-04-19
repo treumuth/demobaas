@@ -1,0 +1,7 @@
+# Ignore everything by default
+*
+
+# But don't ignore these files
+!*.sql
+!*.md
+!.gitignore
