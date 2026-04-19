@@ -5,11 +5,11 @@ Sisaldab Eesti ettevõtte haldussüsteemi (ERP/CRM) demobaasi. Süsteem loodi sp
 ## Struktuur
 
 Baas on jaotatud 5 peamisesse loogilisse moodulisse (täpselt 50 tabelit):
-1. **Personal ja Ettevõte:** Ettevõtted, osakonnad, töötajad, palgad, lepingud.
-2. **Kliendihaldus (CRM):** Kliendid, aadressid, kontaktisikud, klienditugi, must nimekiri.
-3. **Tooteinfo ja laondus:** Tooted (SKU/EAN), kategooriad, brändid, laod, tsoonid, laoseis.
-4. **Müük ja Arveldus:** Tellimused, maksteviise, arved, sooduskupongid.
-5. **Tugi, Projektid, Hooldus:** Projektid, tundide aruandlus, seadmete register ja tugipiletid.
+1. **Personal ja ettevõte:** ettevõtted, osakonnad, töötajad, palgad, lepingud.
+2. **Kliendihaldus (CRM):** kliendid, aadressid, kontaktisikud, klienditugi, must nimekiri.
+3. **Tooteinfo ja laondus:** tooted (SKU/EAN), kategooriad, brändid, laod, tsoonid, laoseis.
+4. **Müük ja arveldus:** tellimused, makseviisid, arved, sooduskupongid.
+5. **Tugi, projektid, hooldus:** projektid, tundide aruandlus, seadmete register ja tugipiletid.
 
 ## Failide ülevaade
 
@@ -17,7 +17,7 @@ Baas on jaotatud 5 peamisesse loogilisse moodulisse (täpselt 50 tabelit):
 
 - [`andmed.sql`](andmed.sql) — andmete sisestamine (vt kirjete arvu allpool).
 
-- [`ylesanded.md`](ylesanded.md) — **10 praktilist edasijõudnute SQL ülesannet** andmebaasi harjutamiseks.
+- [`ylesanded.md`](ylesanded.md) — kümme praktilist SQL ülesannet harjutamiseks.
 
 ### Andmebaasi import
 
