@@ -13,9 +13,11 @@ Baas on jaotatud 5 peamisesse loogilisse moodulisse (täpselt 50 tabelit):
 
 ## Failide ülevaade
 
-- `create_tables.sql` — Sisaldab andmebaasi skeemi loomise (`CREATE TABLE`) käske koos põhjalike eestikeelsete relatsioonide ja definitsioonide vihjetega (`COMMENT`). 
+- [`create_tables.sql`](create_tables.sql) — Sisaldab andmebaasi skeemi loomise (`CREATE TABLE`) käske koos põhjalike eestikeelsete relatsioonide ja definitsioonide vihjetega (`COMMENT`). 
 
-- `andmed.sql` — andmete sisestamine (vt kirjete arvu allpool).
+- [`andmed.sql`](andmed.sql) — andmete sisestamine (vt kirjete arvu allpool).
+
+- [`ylesanded.md`](ylesanded.md) — **10 praktilist edasijõudnute SQL ülesannet** andmebaasi harjutamiseks.
 
 ### Andmebaasi import
 
@@ -83,4 +85,9 @@ Allpool on toodud umbkaudne andmemaht tabelite kaupa pärast baasi täitmist (ge
 | **laod** | 2 |
 | **susteemi_seaded** | 1 |
 | **lojaalsusprogrammid** | 1 |
+
+## Praktilised ülesanded
+
+Oleme koostanud baasi põhjal 10 praktilist SQL ülesannet edasijõudnutele (seoste, alampäringute, agregeerimise ja struktuuri loomise peale).  
+👉 **[Vaata ülesandeid siit failist: ylesanded.md](ylesanded.md)**
 
