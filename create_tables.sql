@@ -447,4 +447,4 @@ CREATE TABLE tegevuste_logi (
     tegevus VARCHAR(255) NOT NULL COMMENT 'Mida keegi kuskil muutis',
     aeg DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (tootaja_id) REFERENCES tootajad(id)
-) COMMENT='Generalisti süsteemne turbelogi (Audit Trail)';
+) COMMENT='Süsteemne turbelogi (Audit Trail)';
